@@ -1,0 +1,15 @@
+ok. so, your name is <%= name %> you are <%= age %> years old, <%= fav1 %>, <%= fav2 %>, <%= fav3 %> are yout three favorite numbers, you love <%= food %> and you love to drink <%= drink %> with it! and the sum of your three numbers is <%= total %>.
+
+<form method = "post" action = "/results">
+  <input type = "text" name = "results">
+  <input type = "submit">
+  <input type = "hidden" name = "user_name" value = <%= name %> >
+  <input type = "hidden" name = "age" value = <%= age %> >
+  <input type = "hidden" name = "number1" value = <%= fav1 %> >
+  <input type = "hidden" name = "number2" value = <%= fav2 %> >
+  <input type = "hidden" name = "number3" value = <%= fav3 %> >
+  <input type = "hidden" name = "hair_color" value = <%= hair %> >
+  <input type = "hidden" name = "eye_color" value = <%= eye %> >
+  <input type = "hidden" name = "food" value = <%= food %> >
+  <input type = "hidden" name = "drink" value = <%= drink %> >
+</form>

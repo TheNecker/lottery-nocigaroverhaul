@@ -1,0 +1,10 @@
+ok so <%= name %> i know you are <%= age %> years old! now finnaly can you tell me what your three favorite numbers between 1-100 are?
+
+<form method = "post" action = "/three_numbers">
+  <input type = "number" min = "1" max = "100" name = "number1">
+  <input type = "number" min = "1" max = "100" name = "number2">
+  <input type = "number" min = "1" max = "100" name = "number3">
+  <input type = "submit">
+  <input type = "hidden" name = "user_name" value = <%= name %>>
+  <input type = "hidden" name = "age" value = <%= age %>>
+</form>

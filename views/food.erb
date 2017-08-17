@@ -1,0 +1,13 @@
+alright then <%= name %> , whats your favorite food?
+
+<form method = "post"  action = "/food">
+  <input type = "text" name = "food">
+  <input type = "submit">
+  <input type = "hidden" name = "user_name" value = <%= name %> >
+  <input type = "hidden" name = "age" value = <%= age %> >
+  <input type = "hidden" name = "number1" value = <%= fav1 %> >
+  <input type = "hidden" name = "number2" value = <%= fav2 %> >
+  <input type = "hidden" name = "number3" value = <%= fav3 %> >
+  <input type = "hidden" name = "hair_color" value = <%= hair %> >
+  <input type = "hidden" name = "eye_color" value = <%= eye %> >
+</form>

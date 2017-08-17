@@ -1,0 +1,12 @@
+and your eye color <%= name %>?
+
+<form method = "post"  action = "/eye">
+  <input type = "text" name = "eye_color">
+  <input type = "submit">
+  <input type = "hidden" name = "user_name" value = <%= name %> >
+  <input type = "hidden" name = "age" value = <%= age %> >
+  <input type = "hidden" name = "number1" value = <%= fav1 %> >
+  <input type = "hidden" name = "number2" value = <%= fav2 %> >
+  <input type = "hidden" name = "number3" value = <%= fav3 %> >
+  <input type = "hidden" name = "hair_color" value = <%= hair %> >
+</form>
